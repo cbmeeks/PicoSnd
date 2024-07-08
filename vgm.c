@@ -22,7 +22,8 @@ bool musicStopped = false;
 void initAudio() {
     bufferCounter = 0;
     cmd_counter = 0;
-    audioInit(3579545 / 2, 44100);
+//    audioInit(3579545 / 2, 44100);
+    audioInit(3579545, 44100);              // YM mode
     readVGMHeader();
 }
 

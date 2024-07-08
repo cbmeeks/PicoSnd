@@ -26,8 +26,7 @@
 
 #define PSG_MASK_CH(x) (1<<(x))
 
-  typedef struct __PSG
-  {
+typedef struct __PSG {
 
     /* Volume Table */
     uint32_t *voltbl;
@@ -79,22 +78,23 @@
     /* output of channels */
     int16_t ch_out[3];
 
-  } PSG;
+} PSG;
 
-  VR_EMU_2149_DLLEXPORT void PSG_set_quality (PSG * psg, uint32_t q);
-  VR_EMU_2149_DLLEXPORT void PSG_set_rate (PSG * psg, uint32_t r);
-  VR_EMU_2149_DLLEXPORT PSG *PSG_new (uint32_t clk, uint32_t rate);
-  VR_EMU_2149_DLLEXPORT void PSG_reset (PSG *);
-  VR_EMU_2149_DLLEXPORT void PSG_delete (PSG *);
-  VR_EMU_2149_DLLEXPORT void PSG_writeReg (PSG *, uint32_t reg, uint32_t val);
-  VR_EMU_2149_DLLEXPORT void PSG_writeIO (PSG * psg, uint32_t adr, uint32_t val);
-  VR_EMU_2149_DLLEXPORT uint8_t PSG_readReg (PSG * psg, uint32_t reg);
-  VR_EMU_2149_DLLEXPORT uint8_t PSG_readIO (PSG * psg);
-  VR_EMU_2149_DLLEXPORT int16_t PSG_calc (PSG *);
-  VR_EMU_2149_DLLEXPORT void PSG_setVolumeMode (PSG * psg, int type);
-  VR_EMU_2149_DLLEXPORT uint32_t PSG_setMask (PSG *, uint32_t mask);
-  VR_EMU_2149_DLLEXPORT uint32_t PSG_toggleMask (PSG *, uint32_t mask);
-    
+VR_EMU_2149_DLLEXPORT void PSG_set_quality(PSG *psg, uint32_t q);
+VR_EMU_2149_DLLEXPORT void PSG_set_rate(PSG *psg, uint32_t r);
+VR_EMU_2149_DLLEXPORT PSG *PSG_new(uint32_t clk, uint32_t rate);
+VR_EMU_2149_DLLEXPORT void PSG_reset(PSG *);
+VR_EMU_2149_DLLEXPORT void PSG_delete(PSG *);
+VR_EMU_2149_DLLEXPORT void PSG_writeReg(PSG *, uint32_t reg, uint32_t val);
+VR_EMU_2149_DLLEXPORT void PSG_writeIO(PSG *psg, uint32_t adr, uint32_t val);
+VR_EMU_2149_DLLEXPORT uint8_t PSG_readReg(PSG *psg, uint32_t reg);
+VR_EMU_2149_DLLEXPORT uint8_t PSG_readIO(PSG *psg);
+VR_EMU_2149_DLLEXPORT int16_t PSG_calc(PSG *);
+VR_EMU_2149_DLLEXPORT void PSG_setVolumeMode(PSG *psg, int type);
+VR_EMU_2149_DLLEXPORT uint32_t PSG_setMask(PSG *, uint32_t mask);
+VR_EMU_2149_DLLEXPORT uint32_t PSG_toggleMask(PSG *, uint32_t mask);
+VR_EMU_2149_DLLEXPORT void PSG_setClockDivider(PSG *psg, uint8_t enable);
+
 #ifdef __cplusplus
 }
 #endif

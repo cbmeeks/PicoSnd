@@ -32,6 +32,7 @@ add_executable(PicoSnd
         audio.c
         emu2149.c
         vgm.c
+        nsf.c
 )
 
 # Create map/bin/hex/uf2 files

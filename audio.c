@@ -30,7 +30,9 @@ static uint8_t psg1Reg = 0;
  */
 static PSG *createPSG(int psgClock, int sampleRate) {
     PSG *psg = PSG_new(psgClock, sampleRate);
-    PSG_setVolumeMode(psg, EMU2149_VOL_AY_3_8910);  // AY-3-8910 mode
+//    PSG_setVolumeMode(psg, EMU2149_VOL_AY_3_8910);  // AY-3-8910 mode
+    PSG_setClockDivider(psg, EMU2149_VOL_YM2149);
+    PSG_setVolumeMode(psg, EMU2149_VOL_YM2149);  // YM mode
     PSG_reset(psg);
     return psg;
 }
