@@ -891,7 +891,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "82"
+			"value" : "81"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1491,7 +1491,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " /home/cbmeeks/sdk/pico/pico-sdk/src/rp2_common/cmsis /home/cbmeeks/sdk/pico/pico-sdk/src/rp2040/hardware_regs /home/cbmeeks/sdk/pico/pico-sdk/src/rp2_common/cmsis /home/cbmeeks/sdk/pico/pico-sdk/src/rp2040/hardware_regs /home/cbmeeks/sdk/pico/pico-sdk/src/rp2_common/cmsis /home/cbmeeks/sdk/pico/pico-sdk/src/rp2040/hardware_regs /home/cbmeeks/sdk/pico/pico-sdk/src/rp2_common/cmsis /home/cbmeeks/sdk/pico/pico-sdk/src/rp2040/hardware_regs /home/cbmeeks/sdk/pico/pico-sdk/src/rp2_common/cmsis /home/cbmeeks/sdk/pico/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " /home/cbmeeks/sdk/pico/pico-sdk/src/rp2_common/cmsis /home/cbmeeks/sdk/pico/pico-sdk/src/rp2040/hardware_regs /home/cbmeeks/sdk/pico/pico-sdk/src/rp2_common/cmsis /home/cbmeeks/sdk/pico/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",
@@ -1792,42 +1792,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : ""
-		},
-		{
-			"name" : "emu2149_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/data/gdrive/Projects/hardware/Pico/PicoSnd/cmake-build-debug/emu2149"
-		},
-		{
-			"name" : "emu2149_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "emu2149_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/data/gdrive/Projects/hardware/Pico/PicoSnd/emu2149"
 		},
 		{
 			"name" : "pico-sdk-tools_DIR",

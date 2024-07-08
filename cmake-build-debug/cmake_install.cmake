@@ -39,11 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/data/gdrive/Projects/hardware/Pico/PicoSnd/cmake-build-debug/emu2149/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/data/gdrive/Projects/hardware/Pico/PicoSnd/cmake-build-debug/pico-sdk/cmake_install.cmake")
 endif()
 

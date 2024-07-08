@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/emu2149" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/emu2149" vcs="" />
     <mapping directory="$USER_HOME$/sdk/pico/pico-sdk" vcs="Git" />
     <mapping directory="$USER_HOME$/sdk/pico/pico-sdk/lib/btstack" vcs="Git" />
     <mapping directory="$USER_HOME$/sdk/pico/pico-sdk/lib/cyw43-driver" vcs="Git" />

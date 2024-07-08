@@ -1,6 +1,6 @@
 from pathlib import Path
 
-path = "../res/04 Wicked Child"
+path = "../res/01 Towns"
 
 with open(path, "rb") as f:
     while byte := f.read(1):

@@ -4,15 +4,14 @@
 #   Copyright (c) 2024 Cecil Meeks
 #   https://github.com/cbmeeks/PicoSnd
 ###############################################################################
-cmake_minimum_required(VERSION 3.29)
+cmake_minimum_required(VERSION 3.23)
 
 # Set environment variables
 # I prefer setting this here instead of in .bashrc or other OS-specific file.  Basically, you just need to make sure
 # to set your PICO_SDK_PATH environment variable to the location of the Pico SDK on your system.
 set(ENV{PICO_SDK_PATH} "/home/cbmeeks/sdk/pico/pico-sdk")
 
-# Import the emu2149 library https://github.com/visrealm/emu2149
-add_subdirectory(emu2149)
+# Uses the emu2149 library https://github.com/visrealm/emu2149
 
 
 # Include build functions from Pico SDK
@@ -31,6 +30,7 @@ pico_sdk_init()
 add_executable(PicoSnd
         main.c
         audio.c
+        emu2149.c
         vgm.c
 )
 
@@ -48,7 +48,6 @@ target_link_libraries(${PROJECT_NAME}
         hardware_irq
         hardware_pio
         hardware_pwm
-        emu2149
 )
 
 # Enable USB output, disable UART output

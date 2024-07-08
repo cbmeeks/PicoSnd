@@ -2,9 +2,6 @@
 /data/gdrive/Projects/hardware/Pico/PicoSnd/cmake-build-debug/CMakeFiles/ELF2UF2Build.dir
 /data/gdrive/Projects/hardware/Pico/PicoSnd/cmake-build-debug/CMakeFiles/edit_cache.dir
 /data/gdrive/Projects/hardware/Pico/PicoSnd/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/data/gdrive/Projects/hardware/Pico/PicoSnd/cmake-build-debug/emu2149/CMakeFiles/emu2149.dir
-/data/gdrive/Projects/hardware/Pico/PicoSnd/cmake-build-debug/emu2149/CMakeFiles/edit_cache.dir
-/data/gdrive/Projects/hardware/Pico/PicoSnd/cmake-build-debug/emu2149/CMakeFiles/rebuild_cache.dir
 /data/gdrive/Projects/hardware/Pico/PicoSnd/cmake-build-debug/pico-sdk/CMakeFiles/edit_cache.dir
 /data/gdrive/Projects/hardware/Pico/PicoSnd/cmake-build-debug/pico-sdk/CMakeFiles/rebuild_cache.dir
 /data/gdrive/Projects/hardware/Pico/PicoSnd/cmake-build-debug/pico-sdk/tools/CMakeFiles/edit_cache.dir
